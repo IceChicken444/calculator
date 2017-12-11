@@ -71,4 +71,11 @@
 	border-top: black 2px solid;
 	border-bottom: 2px #6f6f6f solid;
 }
-
+.operator:activate {
+	border-top: black 2px solid;
+	border-bottom:  #303030 2px solid;
+}
+.number:activate {
+	border-top: black 2px solid;
+	border-bottom: 2px #6f6f6f solid;
+}
