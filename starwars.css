@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	background-image: url("images/hyperspace.jpg");
+}
+/* Calculator box */
+.box {
+	background-image: url("images/dance.gif");
+	background-color: #e5e7ea;
+	height: 500px;
+	width: 400px;
+	border-radius: 10px;
+	position: relative;
+	top: 80px;
+	left: 40%;
+}
+
+/* Display */
+.display {
+	
+	background-color: #bfc4ce;
+	width: 370px;
+	position: relative;
+	left: 15px;
+	top: 20px;
+	height: 80px;
+}
+.display input {
+	background-image: url("images/magic.jpg");
+	position: relative;
+	left: 2px;
+	top: 2px;
+	height: 70px;
+	width: 360px;
+	color: black;
+	background-color: #bccd95;
+	font-size: 21px;
+	text-align: right;
+}
+
+/* Calculator buttons */
+.keys {
+	position: relative;
+	top: 15px;
+}
+.button {	
+	background-image: url("images/yoda.png");
+	width: 75px;
+	height: 55px;
+	border: none;
+	border-radius: 9999px;
+	margin-left: 17px;
+	cursor: pointer;
+	border-top: 2px solid transparent;
+}
+.button.function {
+	background-color: #c64f81;
+	border-bottom: black 2px solid;
+	border-top: 2px #6f6f6f solid;
+}
+.button.operator {
+	color: white;
+	background-color: #4d5966;
+	border-bottom: black 2px solid;
+	border-top: 2px #6f6f6f solid;
+}
+.button.number {
+	color: white;
+	background-color: #7091ab;
+	border-bottom: black 2px solid;
+	border-top: 2px #6f6f6f solid;
+}
+
+/* Simulate button Press */
+.function:activate {
+	border-top: black 2px solid;
+	border-bottom: 2px #6f6f6f solid;
+}
+.operator:activate {
+	border-top: black 2px solid;
+	border-bottom:  #303030 2px solid;
+}
+.number:activate {
+	border-top: black 2px solid;
+	border-bottom: 2px #6f6f6f solid;
+}
