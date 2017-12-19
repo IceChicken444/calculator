@@ -1,11 +1,11 @@
 @charset "UTF-8";
 /* CSS Document */
 body{
-	background-image: url("images/waffle.gif");
+	background-image: url("images/hyperspace.jpg");
 }
 /* Calculator box */
 .box {
-	background-image: url("images/pizza.gif");
+	background-image: url("images/dance.gif");
 	background-color: #e5e7ea;
 	height: 550px;
 	width: 400px;
@@ -26,7 +26,7 @@ body{
 	height: 80px;
 }
 .display input {
-
+	background-image: url("images/bike.png");
 	position: relative;
 	left: 2px;
 	top: 2px;
@@ -44,6 +44,7 @@ body{
 	top: 15px;
 }
 .button {	
+	background-image: url("images/yoda.png");
 	width: 75px;
 	height: 55px;
 	border: none;

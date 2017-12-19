@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <title>Calculator</title>
 <!--Stylesheet-->
-<link rel="stylesheet" type="text/css" href="calculator.css">
+<link rel="stylesheet" type="text/css" href="starwars.css">
 <!--JavaScript-->
 <script type="text/javascript" src="calculator.js"></script>
 </head>
@@ -15,9 +15,9 @@
 		<div class="display"><input type="text" readonly size="18" id="d"></div>
 		<div class="keys">
 			<p>
-				<input type="button" class="button function" value="mrc" onclick="alert('Not yet implemented')">
-				<input type="button" class="button function" value="m-" onclick="alert('Not yet implemented')">
-				<input type="button" class="button function" value="m+" onclick="alert('Not yet implemented')">
+				<input type="button" class="button function" value="π" onclick="v(Math.PI)">
+				<input type="button" class="button function" value="(" onclick="v('(')">
+				<input type="button" class="button function" value=")" onclick="v(')')">
 				<input type="button" class="button operator" value="/" onclick="v('/')">
 			</p>
 			<p>
@@ -43,6 +43,10 @@
 				<input type="button" class="button number" value="." onclick="v('2')">
 				<input type="button" class="button number" value="C" onclick="d(' ')">
 				<input type="button" class="button operator" value="=" onclick='e()'>
+				</p>
+				<p>
+				<input type="button" class="button number" value="food" onclick="changeCSS('calculator.css',0)">
+				<input type="button" class="button operator" value="star wars" onclick="changeCSS('starwars.css',0)">
 				</p>
 			</div>
 		</div>
