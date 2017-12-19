@@ -7,7 +7,7 @@ body{
 .box {
 	background-image: url("images/dance.gif");
 	background-color: #e5e7ea;
-	height: 500px;
+	height: 550px;
 	width: 400px;
 	border-radius: 10px;
 	position: relative;
@@ -26,7 +26,7 @@ body{
 	height: 80px;
 }
 .display input {
-	background-image: url("images/magic.jpg");
+	background-image: url("images/bike.png");
 	position: relative;
 	left: 2px;
 	top: 2px;

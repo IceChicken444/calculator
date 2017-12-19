@@ -7,7 +7,7 @@ body{
 .box {
 	background-image: url("images/pizza.gif");
 	background-color: #e5e7ea;
-	height: 500px;
+	height: 550px;
 	width: 400px;
 	border-radius: 10px;
 	position: relative;
